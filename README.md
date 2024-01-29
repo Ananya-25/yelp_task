@@ -27,7 +27,7 @@ The overall structure of the project includes dedicated folders for different st
 ### How to run
 1. **Download Yelp Dataset:**
    1. Use the following link to download the Yelp JSON dataset: [Yelp Dataset](https://www.yelp.com/dataset/download)
-   2. Unzip the contents under the folder `nycs/data/bronze`
+   2. Unzip the contents under the folder `/data/bronze`
 2. **Build Docker images**
    1. Navigate to root folder (by default yelp_task)
    2. Run `docker-compose build`
@@ -35,7 +35,7 @@ The overall structure of the project includes dedicated folders for different st
    1. Run unit-tests `docker-compose run tests`
    2. Run main `docker-compose run main`
 4. **Output**
-    1. The ouput data will be written in CSV-format for readability into `nycs/data/gold/`
+    1. The ouput data will be written in CSV-format for readability into `/data/gold/`
 
 ### Installation requirements
 1. Python 3.10
